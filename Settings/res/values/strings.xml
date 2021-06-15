@@ -2508,4 +2508,34 @@
     <string name="font_sans_serif_light" translatable="false">sans-serif-light</string>
     <string name="font_sans_serif_thin" translatable="false">sans-serif-thin</string>
     <string name="font_sans_serif_condensed" translatable="false">sans-serif-condensed</string>
+
+    <!-- Wifi AP settings-->
+    <!-- Label for Wifi tether checkbox. Toggles Access Point on/off  [CHAR LIMIT=30] -->
+    <string name="wifi_hotspot_checkbox_text">Wi\u2011Fi hotspot</string>
+    <!-- Summary text when no password is set [CHAR LIMIT=60] -->
+    <string name="wifi_hotspot_no_password_subtext">No password set</string>
+
+    <!-- Wifi hotspot settings -->
+    <!-- Label for wifi tether enable. -->
+    <string name="wifi_hotspot_enable">Enable hotspot</string>
+    <!-- Label for Wifi hotspot name. -->
+    <string name="wifi_hotspot_name_title">Hotspot name</string>
+    <!-- Label for Wifi hotspot password. -->
+    <string name="wifi_hotspot_password_title">Hotspot password</string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security">Security</string>
+    <!-- Label for Wifi hotspot AP Band. -->
+    <string name="wifi_hotspot_ap_band_title">AP Band</string>
+    <!-- Title for the toggle to turn off hotspot automatically [CHAR LIMIT=NONE]-->
+    <string name="wifi_hotspot_auto_off_title">Turn off hotspot automatically</string>
+    <!-- Summary for the toggle to turn off hotspot automatically [CHAR LIMIT=NONE]-->
+    <string name="wifi_hotspot_auto_off_summary">When no devices are connected</string>
+    <!-- DO NOT TRANSLATE Summary placeholder -->
+    <string name="summary_placeholder" translatable="false">&#160;</string>
+
+    <!-- Dialog for Access Points -->
+    <!-- Label for the radio button to choose wifi ap 2.4 GHz band -->
+    <string name="wifi_ap_choose_2G">2.4 GHz Band</string>
+    <!-- Label for the radio button to prefer 5GHz wifi ap band  [CHAR LIMIT=80]-->
+    <string name="wifi_ap_prefer_5G">5.0 GHz Band preferred</string>
 </resources>

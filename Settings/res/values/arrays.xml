@@ -294,4 +294,32 @@
     <string-array name="customized_ignored_system_alert_window_packages" translatable="false">
     </string-array>
 
+    <!-- Security types for wireless tether -->
+    <string-array name="wifi_tether_security">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wpa2</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+    </string-array>
+
+    <!-- Values for security type for wireless tether -->
+    <string-array name="wifi_tether_security_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>0</item>
+    </string-array>
+
+    <!-- Wi-Fi AP band settings.  Either 2.4GHz or 5GHz prefer. -->
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array translatable="false" name="wifi_ap_band">
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array translatable="false" name="wifi_ap_band_summary">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_prefer_5G</item>
+    </string-array>
+
 </resources>
