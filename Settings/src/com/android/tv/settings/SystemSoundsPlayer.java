@@ -207,11 +207,14 @@ public class SystemSoundsPlayer implements LifecycleObserver {
                 // error while loading sound, remove it from map to mark it as unloaded
                 Integer effectId = 0;
                 for (; effectId < mEffectIdToSoundPoolId.size(); effectId++) {
-                    if (mEffectIdToSoundPoolId.get(effectId) == sampleId) {
+		    Integer id = mEffectIdToSoundPoolId.get(effectId);
+	  	    if (id != null && id.intValue() == sampleId) {
                         break;
                     }
                 }
-                mEffectIdToSoundPoolId.remove(effectId);
+		if (effectId < mEffectIdToSoundPoolId.size()) {
+		    mEffectIdToSoundPoolId.remove(effectId);
+		}
             }
             int remainingToLoad = mEffectIdToSoundPoolId.size() - mLoadedSoundPoolIds.size();
             if (remainingToLoad == 0) {
